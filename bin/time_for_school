@@ -18,6 +18,6 @@ some_knowledge = avi.teach
 steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-
-puts "Steve just learned this important knowledge: '#{steve.learn(avi.teach)}' from Avi"
+some_more_knowledge = avi.teacher
+steve.learn(some_more_knowledge)
 puts "#{steve.knowledge}"
