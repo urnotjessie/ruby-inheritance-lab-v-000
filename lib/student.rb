@@ -4,4 +4,8 @@ class Student < User
 
   def initialize
     @knowledge = []
+  end
+
+  def learning(knowledge)
+    @knowledge
 end
